@@ -1,0 +1,28 @@
+def display_board(board):
+    
+    #clear_output()
+    #print("\n\n")
+    print('   |   |')
+    print(' ' + board[7] + ' | ' + board[8] + ' | ' + board[9])
+    print('   |   |')
+    print('-----------')
+    print('   |   |')
+    print(' ' + board[4] + ' | ' + board[5] + ' | ' + board[6])
+    print('   |   |')
+    print('-----------')
+    print('   |   |')
+    print(' ' + board[1] + ' | ' + board[2] + ' | ' + board[3])
+    print('   |   |')
+    
+    
+    #primeiro passo - ver as marcações no quadro
+    
+    test_board = ['#','X','O','X','O','X','O','X','O','X']
+    display_board(test_board)
+    
+    #segundo passo - Escreva uma função que possa receber uma entrada do jogador e atribua seu marcador como 'X' ou 'O'. Perguntando 
+    qual marcador o jogador 1 quer usar e retonando uma tupla com as marcações (sinal do jogador 1, sinal do jogador 2)
+    
+    def player_input():
+    
+    return: (sinal do jogador 1, sinal do jogador 2)
